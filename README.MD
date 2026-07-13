@@ -1,3 +1,14 @@
+```text
+██╗   ██╗███████╗██╗  ██╗██╗██████╗ ██╗██╗  ██╗ █████╗
+██║   ██║██╔════╝██║  ██║██║██╔══██╗██║██║ ██╔╝██╔══██╗
+██║   ██║███████╗███████║██║██████╔╝██║█████╔╝ ███████║
+██║   ██║╚════██║██╔══██║██║██╔══██╗██║██╔═██╗ ██╔══██║
+╚██████╔╝███████║██║  ██║██║██║  ██║██║██║  ██╗██║  ██║
+ ╚═════╝ ╚══════╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝╚═╝  ╚═╝╚═╝  ╚═╝
+```
+
+
+
 # Data Sources
 
 ## TCDC — Tanzania Cooperative Development Commission
@@ -42,3 +53,5 @@
 ---
 
 Data notes and correction log: see `kaggle_dataset/README.md`.
+
+[Kaggle dataset](https://www.kaggle.com/datasets/henrydioniz/tanzania-cooperatives-saccos-ushirika)
