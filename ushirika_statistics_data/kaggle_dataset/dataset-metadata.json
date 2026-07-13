@@ -1,0 +1,28 @@
+{
+  "title": "Ushirika: Cooperatives and SACCOS in Tanzania",
+  "id": "henrydioniz/tanzania-cooperatives-saccos-ushirika",
+  "subtitle": "Loan access, poverty and the impact of cooperatives in Tanzania's 31 regions",
+  "licenses": [
+    {
+      "name": "CC-BY-4.0"
+    }
+  ],
+  "keywords": [
+    "africa",
+    "agriculture",
+    "finance",
+    "economics",
+    "banking",
+    "government"
+  ],
+  "resources": [
+    {
+      "path": "tanzania_ushirika_master.csv",
+      "description": "All indicators in one tidy/long file: national time series 2019-2025 plus regional breakdowns (cooperatives, SACCOS finance, risk, poverty, financial inclusion, agriculture)"
+    },
+    {
+      "path": "tanzania_ushirika_regional_analysis.csv",
+      "description": "Analysis-ready wide file: one row per region (31 regions) with population, cooperative coverage, SACCOS finance, financial inclusion and poverty indicators aligned"
+    }
+  ]
+}
