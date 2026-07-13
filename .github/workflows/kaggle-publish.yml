@@ -62,6 +62,20 @@ jobs:
         if: steps.diff.outputs.changed == 'true'
         run: pip install kaggle
 
+      - name: Configure Kaggle credentials
+        if: steps.diff.outputs.changed == 'true'
+        env:
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
+        run: |
+          if [ -z "$KAGGLE_USERNAME" ] || [ -z "$KAGGLE_KEY" ]; then
+            echo "KAGGLE_USERNAME / KAGGLE_KEY secrets are missing or empty."
+            exit 1
+          fi
+          mkdir -p ~/.kaggle
+          printf '{"username":"%s","key":"%s"}' "$KAGGLE_USERNAME" "$KAGGLE_KEY" > ~/.kaggle/kaggle.json
+          chmod 600 ~/.kaggle/kaggle.json
+
       - name: Publish new dataset version
         if: steps.diff.outputs.changed == 'true'
         env:
