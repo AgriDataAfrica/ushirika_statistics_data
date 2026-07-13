@@ -1,0 +1,18 @@
+Indicator,Value,Benchmark_or_Note,Risk_Category
+NPL_to_Gross_Loans_Pct,8.79,5% max standard,Asset quality / credit risk
+Non_Earning_Assets_Pct,13.0,<=10% standard,Asset quality
+Savings_Deposits_to_Total_Assets_Pct,72.79,70-80% standard,Funding structure
+Net_Loans_to_Total_Assets_Pct,83.84,70-80% standard,Asset structure
+Core_Capital_Ratio_Pct,13.58,8% min standard,Capital adequacy
+Institutional_Capital_Ratio_Pct,6.05,6% min standard,Capital adequacy
+Top35_SACCOS_Share_of_Total_Assets_Pct,62.93,,Concentration risk
+Dar_es_Salaam_Share_of_SACCOS_Assets_Pct,68.94,,Geographic concentration
+Dar_es_Salaam_Share_of_SACCOS_Loans_Pct,70.38,,Geographic concentration
+Women_Members_Pct,37.62,,Inclusion gap
+Youth_Under36_Members_Pct,36.0,,Inclusion gap
+Employee_Based_SACCOS_Membership_Pct,53.5,,Membership structure
+Community_Based_SACCOS_Membership_Pct,46.5,,Membership structure
+Total_Members_Licensed_SACCOS,1814803,,Scale
+SACCOS_Employees_2023,12031,"13,676 in 2022",Employment
+SACCOS_Employees_Female_Pct,28.54,,Employment
+Licensed_SACCOS_Reporting,884,"of 1,283 registered",Regulatory compliance
